@@ -26,6 +26,6 @@
   "devDependencies": {
   },
   "dependencies": {
-    "karlredgate/EdgeGrid": "*"
+    "EdgeGrid": "karlredgate/EdgeGrid"
   }
 }
