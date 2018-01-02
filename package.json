@@ -1,0 +1,31 @@
+{
+  "name": "noi",
+  "productName": "noi",
+  "version": "0.1.0",
+  "description": "Node SDK for Akamai OPEN APIs",
+  "main": "index.js",
+  "scripts": {
+    "package-all": "npm run package -- --all",
+    "postinstall": "echo postinstall",
+    "dev": "concurrently --kill-others \"npm run hot-server\" \"npm run start-hot\""
+  },
+  "author": {
+    "name": "Karl Redgate",
+    "email": "karl.redgate@gmail.com",
+    "url": "https://github.com/karlredgate"
+  },
+  "license": "APACHE",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/karlredgate/noi"
+  },
+  "bugs": {
+    "url": "https://github.com/karlredgate/noi/issues"
+  },
+  "homepage": "https://github.com/karlredgate/noi",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "karlredgate/EdgeGrid": "*"
+  }
+}
