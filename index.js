@@ -3,7 +3,12 @@ module.exports = Noi;
 module.exports.Contract = require('./lib/Contract');
 module.exports.Alerts = require('./lib/Alerts');
 module.exports.Events = require('./lib/Events');
+
 module.exports.NetworkList = require('./lib/NetworkList');
+
+module.exports.AppSecDefinition = require('./lib/AppSecDefinition');
+module.exports.AppSecConfiguration = require('./lib/AppSecConfiguration');
+module.exports.AppSecResource = require('./lib/AppSecResource');
 
 const EdgeGrid = require('EdgeGrid');
 
