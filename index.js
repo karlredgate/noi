@@ -6,6 +6,7 @@ module.exports.Events = require('./lib/Events');
 
 module.exports.NetworkList = require('./lib/NetworkList');
 module.exports.SIEM = require('./lib/SIEM');
+module.exports.SecMon = require('./lib/SecMon');
 
 module.exports.AppSecDefinition = require('./lib/AppSecDefinition');
 module.exports.AppSecConfiguration = require('./lib/AppSecConfiguration');
