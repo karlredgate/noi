@@ -4,6 +4,7 @@ module.exports.Contract = require('./lib/Contract');
 module.exports.Alerts = require('./lib/Alerts');
 module.exports.Events = require('./lib/Events');
 
+module.exports.ApiDefinitions = require('./lib/ApiDefinitions');
 module.exports.NetworkList = require('./lib/NetworkList');
 module.exports.SIEM = require('./lib/SIEM');
 module.exports.SecMon = require('./lib/SecMon');
