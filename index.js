@@ -1,5 +1,6 @@
 
 module.exports = Noi;
+module.exports.UserAdmin = require('./lib/UserAdmin');
 module.exports.Contract = require('./lib/Contract');
 module.exports.Alerts = require('./lib/Alerts');
 module.exports.Events = require('./lib/Events');
