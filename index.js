@@ -15,7 +15,7 @@ module.exports.AppSecDefinition = require('./lib/AppSecDefinition');
 module.exports.AppSecConfiguration = require('./lib/AppSecConfiguration');
 module.exports.AppSecResource = require('./lib/AppSecResource');
 
-const EdgeGrid = require('EdgeGrid');
+const EdgeGrid = require('rededgegrid');
 
 function Noi() {
 }
