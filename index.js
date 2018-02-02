@@ -27,4 +27,8 @@ module.exports.is_invalid_env = function (env) {
     return EdgeGrid.is_invalid_env(env);
 };
 
+module.exports.dump_dto( dto ) {
+    console.log( JSON.stringify(dto) );
+};
+
 /* vim: set autoindent expandtab sw=4 syntax=javascript: */
