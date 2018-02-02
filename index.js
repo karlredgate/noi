@@ -27,7 +27,7 @@ module.exports.is_invalid_env = function (env) {
     return EdgeGrid.is_invalid_env(env);
 };
 
-module.exports.dump_dto( dto ) {
+module.exports.dump_dto = function (dto) {
     console.log( JSON.stringify(dto) );
 };
 
