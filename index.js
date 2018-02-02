@@ -4,6 +4,7 @@ module.exports.UserAdmin = require('./lib/UserAdmin');
 module.exports.Contract = require('./lib/Contract');
 module.exports.Alerts = require('./lib/Alerts');
 module.exports.Events = require('./lib/Events');
+module.exports.TrafficMgmt = require('./lib/TrafficMgmt');
 
 module.exports.ApiDefinitions = require('./lib/ApiDefinitions');
 module.exports.NetworkList = require('./lib/NetworkList');
